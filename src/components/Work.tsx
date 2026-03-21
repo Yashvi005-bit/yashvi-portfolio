@@ -5,35 +5,35 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "WeatherNow",
+    category: "Real-Time Weather App",
+    tools: "JavaScript, HTML, CSS, OpenWeatherMap API",
+    image: "/images/weatherNow.jpg",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Netflix-Clone",
+    category: "UI Clone",
+    tools: "HTML, CSS, Flexbox, CSS Grid",
+    image: "/images/netflix.jpg",
   },
-  {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
-  },
+  // {
+  //   title: "Bond Cancellation",
+  //   category: "Import-Export Automation",
+  //   tools: "Angular, Next.js, NestJS, Workflows",
+  //   image: "/images/bond.png",
+  // },
+  // {
+  //   title: "Sapphire",
+  //   category: "CRM Platform",
+  //   tools: "AngularJS, NestJS, PostgreSQL",
+  //   image: "/images/sapphire.png",
+  // },
+  // {
+  //   title: "Mpro",
+  //   category: "Insurance Platform",
+  //   tools: "React.js, Node.js, Microservices",
+  //   image: "/images/Maxlife.png",
+  // },
 ];
 
 const Work = () => {
@@ -66,7 +66,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          My <span>Projects</span>
         </h2>
 
         <div className="carousel-wrapper">

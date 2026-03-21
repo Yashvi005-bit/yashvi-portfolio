@@ -6,11 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          Hey! I'm Yashvi - a motivated and enthusiastic CS undergrad with 
+          a dream of becoming a software developer. I contribute to 
+          open-source projects, grind LeetCode (100+ problems!), and am 
+          always excited to learn something new and build something 
+          meaningful. Let's create something great together!
         </p>
       </div>
     </div>

@@ -21,6 +21,7 @@
   letter-spacing: 7px;
   font-weight: 400;
   color: var(--accentColor);
+  margin-bottom: 40px;
 }
 
 .about-me p {
@@ -55,7 +56,8 @@
     opacity: 1;
   }
   .about-me {
-    padding: 0px;
+    padding: 100px 0px;
+    padding-bottom: 0px;
     width: 50%;
   }
   .about-me p {

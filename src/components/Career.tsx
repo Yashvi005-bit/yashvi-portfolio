@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          My experience <span></span>
+          <br /> 
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,43 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Open Source Contributor</h4>
+                <h5>AOSSIE & FOSSASIA</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Contributed to AOSSIE by implementing responsive navigation and 
+  hover glow interactions using React and Material UI. Contributed to 
+  FOSSASIA by fixing outdated copyright information on 
+  summit.fossasia.org.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>GSSoC Participant</h4>
+                <h5>GirlScript Summer of Code</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Selected as a participant in GirlScript Summer of Code 2025. 
+  Explored open-source workflows, collaboration practices and version 
+  control while contributing to real-world projects.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Hackathon Participant</h4>
+                <h5>Smart India Hackathon</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024 & 2025</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Participated in Smart India Hackathon 2024 and was selected in 
+  the Internal Round of SIH 2025. Collaborated on team-based problem 
+  solving under time constraints tackling real-world challenges.
             </p>
           </div>
         </div>
