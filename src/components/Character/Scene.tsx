@@ -1,10 +1,5 @@
 import { useEffect, useRef } from "react";
 import { useLoading } from "../../context/LoadingProvider";
-import {
-  handleMouseMove,
-  handleTouchEnd,
-  handleTouchMove,
-} from "./utils/mouseUtils";
 import { setAllTimeline } from "../utils/GsapScroll";
 import { setProgress } from "../Loading";
 import gsap from "gsap";
@@ -82,43 +77,7 @@ const Scene = () => {
     // Career / site-wide timelines
     setAllTimeline();
 
-    // ── Mouse / touch handlers (structure preserved, no head bone needed) ──────
-    let mouse = { x: 0, y: 0 },
-      interpolation = { x: 0.1, y: 0.2 };
-
-    const onMouseMove = (event: MouseEvent) => {
-      handleMouseMove(event, (x, y) => (mouse = { x, y }));
-    };
-    let debounce: number | undefined;
-    const onTouchStart = (event: TouchEvent) => {
-      const element = event.target as HTMLElement;
-      debounce = setTimeout(() => {
-        element?.addEventListener("touchmove", (e: TouchEvent) =>
-          handleTouchMove(e, (x, y) => (mouse = { x, y }))
-        );
-      }, 200);
-    };
-    const onTouchEnd = () => {
-      handleTouchEnd((x, y, interpolationX, interpolationY) => {
-        mouse = { x, y };
-        interpolation = { x: interpolationX, y: interpolationY };
-      });
-    };
-
-    document.addEventListener("mousemove", onMouseMove);
-    const landingDiv = document.getElementById("landingDiv");
-    if (landingDiv) {
-      landingDiv.addEventListener("touchstart", onTouchStart);
-      landingDiv.addEventListener("touchend", onTouchEnd);
-    }
-
     return () => {
-      clearTimeout(debounce);
-      document.removeEventListener("mousemove", onMouseMove);
-      if (landingDiv) {
-        landingDiv.removeEventListener("touchstart", onTouchStart);
-        landingDiv.removeEventListener("touchend", onTouchEnd);
-      }
       ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);
