@@ -5,10 +5,10 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "IdeaForgeAI",
-    category: "AI IdeaRater",
-    tools: "React,Tailwind CSS,Express.js,Google Gemini API",
-    image: "/images/ideaForge.png",
+  title: "IdeaForgeAI",
+   category: "AI IdeaRater",
+   tools: " React , Tailwind CSS, Express.js,Google Gemini API",
+   image: "/images/IdeaForge.png",
   },
   {
     title: "WeatherNow",
