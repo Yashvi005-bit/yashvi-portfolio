@@ -5,16 +5,16 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "IdeaForgeAI",
+    category: "AI IdeaRater",
+    tools: "React,Tailwind CSS,Express.js,Google Gemini API",
+    image: "/images/ideaForge.png",
+  },
+  {
     title: "WeatherNow",
     category: "Real-Time Weather App",
     tools: "JavaScript, HTML, CSS, OpenWeatherMap API",
     image: "/images/weatherNow.jpg",
-  },
-  {
-    title: "Netflix-Clone",
-    category: "UI Clone",
-    tools: "HTML, CSS, Flexbox, CSS Grid",
-    image: "/images/netflix.jpg",
   },
   // {
   //   title: "Bond Cancellation",
