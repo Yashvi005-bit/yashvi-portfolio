@@ -8,7 +8,7 @@ const projects = [
   title: "IdeaForgeAI",
    category: "AI IdeaRater",
    tools: " React , Tailwind CSS, Express.js,Google Gemini API",
-   image: "/images/IdeaForge.png",
+   image: "/images/IdeaForge.jpg",
   },
   {
     title: "WeatherNow",
