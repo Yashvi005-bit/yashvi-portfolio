@@ -16,12 +16,12 @@ const projects = [
     tools: "JavaScript, HTML, CSS, OpenWeatherMap API",
     image: "/images/weatherNow.jpg",
   },
-  // {
-  //   title: "Bond Cancellation",
-  //   category: "Import-Export Automation",
-  //   tools: "Angular, Next.js, NestJS, Workflows",
-  //   image: "/images/bond.png",
-  // },
+  {
+    title: "NeuralChat-AI ChatBot",
+    category: "AI ChatBot",
+    tools: "MERN stack + HuggingFace API",
+    image: "/images/MERNAI.jpg",
+  },
   // {
   //   title: "Sapphire",
   //   category: "CRM Platform",
