@@ -16,15 +16,14 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Open Source Contributor</h4>
-                <h5>AOSSIE & FOSSASIA</h5>
+                <h5>GSSOC & SSOC</h5>
               </div>
-              <h3>2025</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Contributed to AOSSIE by implementing responsive navigation and 
-  hover glow interactions using React and Material UI. Contributed to 
-  FOSSASIA by fixing outdated copyright information on 
-  summit.fossasia.org.
+            Active Contributor at open source programs like GSSOC 
+            & SSOC.Merged multiple PRs across open source repositories 
+            — contributions include bug fixes, feature additions, and documentation improvements
             </p>
           </div>
           <div className="career-info-box">

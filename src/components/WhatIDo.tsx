@@ -90,7 +90,7 @@ const WhatIDo = () => {
               <h3>DSA</h3>
               <h4>Building Strong Foundations</h4>
               <p>
-                Solved 100+ problems on LeetCode covering Arrays, 
+                Solved 180+ problems on LeetCode covering Arrays, 
   Recursion and Backtracking. Passionate about writing clean & 
   efficient code.
               </p>
