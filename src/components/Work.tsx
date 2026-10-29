@@ -11,10 +11,10 @@ const projects = [
    image: "/images/IdeaForge.jpg",
   },
   {
-    title: "WeatherNow",
-    category: "Real-Time Weather App",
-    tools: "JavaScript, HTML, CSS, OpenWeatherMap API",
-    image: "/images/weatherNow.jpg",
+    title: "AI CSV Importer",
+    category: "CRM Lead Standardization Tool",
+    tools: "Next.js,React,Tailwind CSS,Axios,PapaParse,Node.js,Express.js,Multer,Google Gemini API",
+    image: "/images/image.png",
   },
   {
     title: "NeuralChat-AI ChatBot",
@@ -22,18 +22,12 @@ const projects = [
     tools: "MERN stack + HuggingFace API",
     image: "/images/MERNAI.jpg",
   },
-  // {
-  //   title: "Sapphire",
-  //   category: "CRM Platform",
-  //   tools: "AngularJS, NestJS, PostgreSQL",
-  //   image: "/images/sapphire.png",
-  // },
-  // {
-  //   title: "Mpro",
-  //   category: "Insurance Platform",
-  //   tools: "React.js, Node.js, Microservices",
-  //   image: "/images/Maxlife.png",
-  // },
+  {
+    title: "Page Q&A",
+    category: "AI Powered Chrome Extension",
+    tools: "LangChain, RAG, ChromaDB, Google Gemini, FastAPI",
+    image: "/images/chrome-exten.png",
+  },
 ];
 
 const Work = () => {
