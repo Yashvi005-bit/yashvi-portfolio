@@ -15,45 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Open Source Contributor</h4>
-                <h5>GSSOC & SSOC</h5>
+                <h4>Vellaration Technologies</h4>
+                <h5>Full Stack Developer Intern</h5>
               </div>
-              <h3>2026</h3>
+              <h3>06/2026-08/2026</h3>
             </div>
             <p>
-            Active Contributor at open source programs like GSSOC 
-            & SSOC.Merged multiple PRs across open source repositories 
-            — contributions include bug fixes, feature additions, and documentation improvements
+Engineered a responsive corporate website and CRM dashboard using React, Tailwind CSS, and Framer Motion, delivering an intuitive interface for data management. Developed a FastAPI-based authentication module with JWT-based login and session management, strengthening backend security and application reliability.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>GSSoC Participant</h4>
-                <h5>GirlScript Summer of Code</h5>
+                <h4>Chamber of Commerce and Industry of India</h4>
+                <h5>Full Stack Developer Intern</h5>
               </div>
-              <h3>2025</h3>
+              <h3>08/2026-10/2026</h3>
             </div>
             <p>
-              Selected as a participant in GirlScript Summer of Code 2025. 
-  Explored open-source workflows, collaboration practices and version 
-  control while contributing to real-world projects.
+             Contributed to the development and maintenance of full-stack web applications, driving frontend implementation and backend integration. Integrated AI-powered features and conversational chatbots to enhance application functionality and deliver improved user experiences.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Hackathon Participant</h4>
-                <h5>Smart India Hackathon</h5>
+                <h4>GirlScript Summer of Code</h4>
+                <h5>Open Source contributor</h5>
               </div>
-              <h3>2024 & 2025</h3>
+              <h3>06/2026-08/2026</h3>
             </div>
             <p>
-              Participated in Smart India Hackathon 2024 and was selected in 
-  the Internal Round of SIH 2025. Collaborated on team-based problem 
-  solving under time constraints tackling real-world challenges.
+             Contributed to open-source development through GirlScript Summer of Code (GSSoC) 2026, collaborating on codebases and strengthening practical software engineering skills. Gained experience navigating existing code, implementing improvements, and working with Git and GitHub in collaborative development workflows.
             </p>
           </div>
+         
         </div>
       </div>
     </div>
