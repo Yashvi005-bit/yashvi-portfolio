@@ -18,6 +18,7 @@ const capabilities = [
     skills: [
       "AI Agents",
       "Tool Calling",
+      "LangGraph",
       "Workflow Orchestration",
       "LLM Workflows",
     ],
@@ -49,7 +50,6 @@ const capabilities = [
       "Java",
       "Data Structures",
       "Algorithms",
-      "Dynamic Programming",
       "Problem Solving",
     ],
   },
